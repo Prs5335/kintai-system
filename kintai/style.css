@@ -1,0 +1,211 @@
+/* =========================
+   共通スタイル
+========================= */
+
+body {
+    font-family: "Segoe UI", "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+/* テーブル共通 */
+table {
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+    border-collapse: collapse;
+    background-color: #ffffff;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+}
+
+tr:hover td {
+    background-color: #f9f9f9;
+}
+
+/* ナビリンク共通 */
+.nav-links {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    font-weight: bold;
+    margin: 0 10px;
+}
+
+/* =========================
+   一覧画面（オレンジ）
+========================= */
+.page-list {
+    padding: 30px;
+    background-color: #fff7f0;
+    min-height: 100vh;
+}
+
+.page-list h1 {
+    color: #e67e22;
+    text-align: center;
+}
+
+.page-list .nav-links a {
+    color: #e67e22;
+}
+
+.page-list table th {
+    background-color: #f39c12;
+    color: #fff;
+}
+
+.page-list table td {
+    border-bottom: 1px solid #f0c27b;
+}
+
+.page-list table tr:last-child td {
+    border-bottom: none;
+}
+
+.page-list table tr:hover td {
+    background-color: #fff1e0;
+}
+
+/* =========================
+   出勤画面（緑）
+========================= */
+.page-in {
+    background-color: #f3fbf6;
+    min-height: 100vh;
+    padding: 40px;
+    text-align: center;
+}
+
+.page-in h1 {
+    color: #27ae60;
+}
+
+.page-in p {
+    max-width: 400px;
+    margin: 0 auto 20px;
+    padding: 12px;
+    background-color: #e9f7ef;
+    border-left: 5px solid #2ecc71;
+    color: #2c3e50;
+}
+
+.page-in form {
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 25px;
+    border-radius: 6px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.page-in input[type="number"] {
+    width: 80%;
+    padding: 10px;
+    margin: 15px 0;
+    border: 1px solid #b7e4c7;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.page-in button {
+    background-color: #2ecc71;
+    color: #fff;
+    border: none;
+    padding: 10px 25px;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.page-in button:hover {
+    background-color: #27ae60;
+}
+
+.page-in a {
+    display: block;
+    margin-top: 25px;
+    color: #27ae60;
+    font-weight: bold;
+}
+
+.page-in a:hover {
+    text-decoration: underline;
+}
+
+/* =========================
+   退勤画面（青）
+========================= */
+.page-out {
+    background-color: #f2f7fb;
+    min-height: 100vh;
+    padding: 40px;
+    text-align: center;
+}
+
+.page-out h1 {
+    color: #2980b9;
+}
+
+.page-out p {
+    max-width: 400px;
+    margin: 0 auto 20px;
+    padding: 12px;
+    background-color: #eaf2fb;
+    border-left: 5px solid #3498db;
+    color: #2c3e50;
+}
+
+.page-out form {
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 25px;
+    border-radius: 6px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.page-out input[type="number"] {
+    width: 80%;
+    padding: 10px;
+    margin: 15px 0;
+    border: 1px solid #bcdff5;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.page-out button {
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    padding: 10px 25px;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.page-out button:hover {
+    background-color: #2980b9;
+}
+
+.page-out a {
+    display: block;
+    margin-top: 25px;
+    color: #2980b9;
+    font-weight: bold;
+}
+
+.page-out a:hover {
+    text-decoration: underline;
+}
